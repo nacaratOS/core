@@ -1,0 +1,55 @@
+# General
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "inter_menu.pf2"
+
++ image {
+    top = 8%
+    left = 50%-110
+    width = 220
+    height = 77
+    file = "logo.png"
+}
+
++ label {
+    top = 23%
+    left = 0
+    width = 100%
+    align = "center"
+    text = "Welcome to NacaratOS, let's start with;"
+    font = "inter_title.pf2"
+    color = "#FFFFFF"
+}
+
+# Boot menu — borderless, soft white highlight on selected entry
++ boot_menu {
+    left = 25%
+    top = 35%
+    width = 50%
+    height = 40%
+    item_height = 36
+    item_padding = 10
+    item_spacing = 8
+
+    item_font = "inter_menu.pf2"
+    item_color = "#FFFFFF"
+
+    selected_item_font = "inter_menu.pf2"
+    selected_item_color = "#000000"
+    selected_item_pixmap_style = "select_*.png"
+
+    icon_width = 0
+    icon_height = 0
+}
+
+# Bottom footer text
++ label {
+    top = 95%
+    left = 0
+    width = 100%
+    align = "center"
+    text = "Reality is in your eyes - NacaratOS"
+    font = "inter_menu.pf2"
+    color = "#888888"
+}
